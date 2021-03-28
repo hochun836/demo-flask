@@ -53,11 +53,6 @@ database
 db = SQLAlchemy()
 db.init_app(app)
 
-"""
-import other modules
-"""
-import jobs
-
 app.logger.info(f'"app" in sys.modules: {"app" in sys.modules}')
 app.logger.info(f'server is running by {app.config["NAME"]} config')
 

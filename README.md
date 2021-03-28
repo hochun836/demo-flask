@@ -37,3 +37,8 @@ Then
 - server creates `logs` directory in project
 
 - server creates `test.db` file in project
+
+## How to Use Flask_Apscheduler
+
+As set `SCHEDULER_API_ENABLED = True` in `./config/local.py`, we can query / delete / add / edit / pause / run jobs by
+api (more [doc](https://github.com/viniciuschiele/flask-apscheduler#api))
